@@ -17,12 +17,14 @@ This project aims to evaluate and apply various generative machine learning mode
 Two datasets are used for this project:
 
 1. **Airbus Helicopter Accelerometer Dataset**: This dataset contains sensor readings related to an Airbus Helicopter system. The dataset is publicly available and can be accessed from [ETH Zürich's Research Collection](https://www.research-collection.ethz.ch/handle/20.500.11850/415151).
-    - Notebooks: `HMM_Airbus.ipynb`, `GAN Airbus.ipynb`, `VAE_Airbus.ipynb`
+    - Notebooks: `HMM_Airbus.ipynb`, `GAN_Airbus.ipynb`, `VAE_Airbus.ipynb`
 
 2. **Surgical Stapler Dataset**: This dataset is provided by Medtronic's surgical operating unit and contains lab experiment readings from surgical staplers.
     - Notebooks: `HMM_Stapler.ipynb`, `GAN_Stapler.ipynb`, `VAE_Stapler.ipynb`
 
 > **Note**: The data from the medical device was obtained from a lab experiment and not from a clinical setting. Real values are anonymized for protection.
+
+> **Data Access**: The data used in this project is not publicly available due to security and privacy considerations. To request access, please contact the project team or submit a request.
 
 ## Methodology
 
@@ -39,7 +41,7 @@ The models are evaluated based on the following metrics:
 ## Jupyter Notebooks
 
 - `HMM_Airbus.ipynb`: HMM model for Airbus dataset
-- `GAN Airbus.ipynb`: GAN model for Airbus dataset
+- `GAN_Airbus.ipynb`: GAN model for Airbus dataset
 - `VAE_Airbus.ipynb`: VAE model for Airbus dataset
 - `HMM_Stapler.ipynb`: HMM model for Surgical Stapler dataset
 - `GAN_Stapler.ipynb`: GAN model for Surgical Stapler dataset
@@ -48,4 +50,3 @@ The models are evaluated based on the following metrics:
 ## Acknowledgments
 
 Special thanks to Medtronic's surgical operating unit for providing access to the Surgical Stapler dataset. The dataset was collected during lab experiments and is not clinical data. All real values have been anonymized for protection.
-
